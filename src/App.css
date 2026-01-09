@@ -1,0 +1,55 @@
+.app {
+  max-width: 520px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+/* TODO */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.task-count {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
